@@ -21,10 +21,10 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v5
         with:
           git-branch: 'main'
-          github-token: ${{ secrets.github_token }}
           git-message: 'chore(release): {version}'
           git-push: true
           version-file: 'package.json'
           preset: 'angular'
           tag-prefix: 'v'
           output-file: 'CHANGELOG.md'
+          skip-tag: true
