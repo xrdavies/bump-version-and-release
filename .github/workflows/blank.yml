@@ -1,0 +1,26 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Bump version
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+    paths-ignore: [ "package.json", "CHANGELOG.md"]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bump version and push tag
+        uses: TriPSs/conventional-changelog-action@master
+        with:
+          git-message: 'chore(release): {version}'
+          preset: 'bump'
+          tag-prefix: ''
+          output-file: 'CHANGELOG.md'
