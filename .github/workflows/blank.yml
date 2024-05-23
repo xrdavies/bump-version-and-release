@@ -5,13 +5,13 @@ name: Bump version
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  # push:
-  #   branches: [ "main" ]
-  #   paths-ignore: [ "package.json", "CHANGELOG.md"]
-  pull_request:
+  push:
     branches: [ "main" ]
-    types: [ "closed" ]
     paths-ignore: [ "package.json", "CHANGELOG.md"]
+  # pull_request:
+  #   branches: [ "main" ]
+  #   types: [ "closed" ]
+  #   paths-ignore: [ "package.json", "CHANGELOG.md"]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
