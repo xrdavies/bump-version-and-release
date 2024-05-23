@@ -35,4 +35,4 @@ jobs:
           preset: 'angular'
           tag-prefix: 'v'
           output-file: 'CHANGELOG.md'
-          skip-tag: true
+          skip-tag: false
