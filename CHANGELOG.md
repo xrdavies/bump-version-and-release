@@ -1,4 +1,13 @@
-# 1.6.0 (2024-05-23)
+## [1.6.1](https://github.com/xrdavies/bump-version/compare/v1.6.0...v1.6.1) (2024-05-23)
+
+
+### Bug Fixes
+
+* bump version ([e746f94](https://github.com/xrdavies/bump-version/commit/e746f94b10d04fab1d5b0633a678645ee854b5e1))
+
+
+
+# [1.6.0](https://github.com/xrdavies/bump-version/compare/47f248a5e483160ce413000be0df1981981a1dcc...v1.6.0) (2024-05-23)
 
 
 ### Bug Fixes
