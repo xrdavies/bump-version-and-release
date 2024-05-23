@@ -28,9 +28,10 @@ jobs:
         with:
           github-token: '${{ secrets.ACTION_TOKEN }}'
           git-branch: 'main'
-          git-message: 'chore(release): {version}'
+          git-message: ' goo: {version}'
           git-push: true
           version-file: 'package.json'
+          release-count: '10'
           preset: 'angular'
           tag-prefix: 'v'
           output-file: 'CHANGELOG.md'
