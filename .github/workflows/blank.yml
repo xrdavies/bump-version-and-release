@@ -56,7 +56,7 @@ jobs:
         with:
           token: '${{ secrets.ACTION_TOKEN }}'
           tag_name: '${{ needs.bump.outputs.tag }}'
-          prerelase: false
+          prerelease: false
           draft: false
           files: README.md
           generate_release_notes: true
