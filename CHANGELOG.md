@@ -1,3 +1,12 @@
+## [1.6.3](https://github.com/xrdavies/bump-version-and-release/compare/v1.6.2...v1.6.3) (2024-06-09)
+
+
+### Bug Fixes
+
+* bump another version again ([1b233bf](https://github.com/xrdavies/bump-version-and-release/commit/1b233bf7a2106ef38e53789ff0d0c912982cccbe))
+
+
+
 ## [1.6.2](https://github.com/xrdavies/bump-version-and-release/compare/v1.6.1...v1.6.2) (2024-06-09)
 
 
