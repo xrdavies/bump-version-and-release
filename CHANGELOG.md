@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/xrdavies/bump-version-and-release/compare/v1.6.3...v1.7.0) (2024-06-09)
+
+
+### Features
+
+* add another bump ([326bdb1](https://github.com/xrdavies/bump-version-and-release/commit/326bdb1c9a6c7e6cc8d0f2fd79657da90ee3e42f))
+
+
+
 ## [1.6.3](https://github.com/xrdavies/bump-version-and-release/compare/v1.6.2...v1.6.3) (2024-06-09)
 
 
