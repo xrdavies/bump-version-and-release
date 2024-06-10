@@ -60,7 +60,9 @@ jobs:
           tag_name: '${{ needs.bump.outputs.tag }}'
           prerelease: false
           draft: false
-          files: README.md
+          files: |
+            README.md
+            package.json
           generate_release_notes: true
           name: '${{ needs.bump.outputs.tag }}'
           body: |
