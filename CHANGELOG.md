@@ -1,3 +1,12 @@
+## [1.9.3](https://github.com/xrdavies/bump-version-and-release/compare/v1.9.2...v1.9.3) (2024-06-10)
+
+
+### Bug Fixes
+
+* disable recheckout ([64282b0](https://github.com/xrdavies/bump-version-and-release/commit/64282b0a84732a9ceb9373a7a0768aa7504779fc))
+
+
+
 ## [1.9.2](https://github.com/xrdavies/bump-version-and-release/compare/v1.9.1...v1.9.2) (2024-06-10)
 
 
