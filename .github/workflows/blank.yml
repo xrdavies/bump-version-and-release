@@ -51,9 +51,9 @@ jobs:
     if: needs.bump.outputs.skipped != 'true'
     runs-on: ubuntu-latest
     steps:
-      - name: Cleanup
-        run: find . -delete
-      - uses: actions/checkout@v4
+      # - name: Cleanup
+      #   run: find . -delete
+      # - uses: actions/checkout@v4
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
