@@ -1,3 +1,12 @@
+## [1.9.1](https://github.com/xrdavies/bump-version-and-release/compare/v1.9.0...v1.9.1) (2024-06-10)
+
+
+### Bug Fixes
+
+* add new assets ([049dba4](https://github.com/xrdavies/bump-version-and-release/commit/049dba476376905df7631443f61f2bd3ff11d922))
+
+
+
 # [1.9.0](https://github.com/xrdavies/bump-version-and-release/compare/v1.8.0...v1.9.0) (2024-06-09)
 
 
