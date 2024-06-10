@@ -1,3 +1,12 @@
+## [1.9.2](https://github.com/xrdavies/bump-version-and-release/compare/v1.9.1...v1.9.2) (2024-06-10)
+
+
+### Bug Fixes
+
+* add clean before checkout ([8c7c724](https://github.com/xrdavies/bump-version-and-release/commit/8c7c724cd11fe651687d827deece4a224e990cd0))
+
+
+
 ## [1.9.1](https://github.com/xrdavies/bump-version-and-release/compare/v1.9.0...v1.9.1) (2024-06-10)
 
 
